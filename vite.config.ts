@@ -25,7 +25,6 @@ export default ({ mode }) =>
     ],
     base: mode === "development" ? "/" : "./",
     server: {
-      host: "0.0.0.0",
-      port: 5000,
+      port: 8080,
     },
   });
